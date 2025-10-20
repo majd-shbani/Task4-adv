@@ -20,8 +20,10 @@ const Hero = () => {
     }]
     return (
         <div className="hero">
-            <h1 className='fW700 colorBlack'>Discover a place you will love to live</h1>
-            <p className='fontSize16 fW400 lineHieght colorGray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
+            <div>
+                <h1 className='fW700 colorBlack'>Discover a place you will love to live</h1>
+                <p className='fontSize16 fW400 lineHieght colorGray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
+            </div>
             <div className='container'>
                 {cards.map((card , index) => {
                     return(
