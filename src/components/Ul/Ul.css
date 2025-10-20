@@ -1,0 +1,12 @@
+.ul{
+    list-style: none;
+    .fontSize20{
+        font-size: 20px;
+    }
+    li{
+        padding-bottom: 16px;
+    }
+    .paddingBottum{
+        padding-bottom: 20px;
+    }
+}

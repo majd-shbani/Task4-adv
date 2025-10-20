@@ -1,0 +1,46 @@
+.navMenu{
+    width: 100%;
+    padding: 30px 0px 73px 0px;
+    .menuHead{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px 32px 20px;
+        .navLogo{
+            width: 45px;
+        }
+        .outButton{
+            width: 24px;
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        width: 100%;
+        gap: 32px;
+        padding-bottom: 45px;
+        li{
+            width: 100%;
+            max-width: 360px;
+            padding: 24px 20px;
+        }
+        .bGroundColor{
+            background-color: #D7E6EA;
+        }
+        .border{
+            border: 1px solid #000000 ;
+        }
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: 10px 60px;
+        background-color: #025595;
+        color: #F5F5F5;
+        border: none;
+        border-radius: 6px;
+    }
+}

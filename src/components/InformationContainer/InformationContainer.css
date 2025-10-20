@@ -1,0 +1,22 @@
+.informationContainer{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    img{
+        padding: 15px;
+        background-color: #ebf0f5;
+        border-radius: 50%;
+    }
+    p{
+        padding-top: 10px !important;
+    }
+}
+
+@media screen and (max-width : 992px){
+    .informationContainer{
+        gap: 21px;
+        p{
+            padding-top: 5px;
+        }
+    }
+}

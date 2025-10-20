@@ -1,0 +1,57 @@
+.ourGallery{
+    .cardsContainer{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 295px;
+        .buttonsContainer{
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(6 , auto);
+            gap: 15px;
+            button{
+                padding: 14px 20px;
+                background-color: #FFFFFF;
+                border: 2px solid #333333;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width : 1440px){
+    .ourGallery{
+        .cardsContainer{
+            padding-top: 80px;
+            gap: 212px;
+            .buttonsContainer{
+                gap: 10px;
+                button{
+                    padding: 10px 16px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width : 992px){
+    .ourGallery{
+        .cardsContainer{
+            padding-top: 50px;
+            gap: 197px;
+            .buttonsContainer{
+                grid-template-columns: repeat(2 , 1fr);
+                button{
+                    max-width: 180px;
+                    padding: 10px 16px;
+                }
+            }
+        }
+    }
+}

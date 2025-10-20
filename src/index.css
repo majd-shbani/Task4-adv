@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+                                                        /* General Classes */
+
+.whiteSpacing{
+    padding: 94px 70px 0px 70px;
+}
+                                                /* fonts */
+                            /* font size */
+.fontSize16{
+    font-size: 16px;
+}
+                            /* font Wieght */
+.fW400{
+    font-weight: 400;
+}
+.fW500{
+    font-weight: 500;
+}
+.fW600{
+    font-weight: 600;
+}
+.fW700{
+    font-weight: 700;
+}
+                            /* line height */
+.lineHieght{
+    line-height: 25px;
+}
+                                                /* colors */
+.colorBlack{
+  color: #222222;
+}
+.colorGray{
+  color: #22222280;
+}
+
+
+
+@media screen and (max-width : 992px){
+    .whiteSpacing{
+        padding: 64px 20px 0 20px;
+    }
+}

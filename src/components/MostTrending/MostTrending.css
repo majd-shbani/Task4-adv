@@ -1,0 +1,22 @@
+.mostTrending{
+    .cardsContainer{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-template-rows: repeat(2 , 1fr);
+        justify-items: center;
+        gap: 30px 25px;
+    }
+}
+
+
+
+
+@media screen and (max-width : 992px){
+.mostTrending{
+    .cardsContainer{
+        grid-template-columns: repeat(1 , 1fr);
+        align-items: center;
+        gap: 20px;
+    }
+}
+}
