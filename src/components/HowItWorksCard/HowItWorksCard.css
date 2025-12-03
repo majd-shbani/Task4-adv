@@ -12,8 +12,11 @@
 }
 .howItWorksCard:hover{
     background-color: #025595;
-    p , b , svg{
+    p , b {
         color: #FFFFFF !important;
+    }  
+    .icon{
+        stroke: #FFFFFF !important;
     }
 }
 

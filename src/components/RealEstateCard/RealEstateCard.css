@@ -1,6 +1,6 @@
 .realEstateCard{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 30px;
     .imageContainer{
         max-width: 387px;

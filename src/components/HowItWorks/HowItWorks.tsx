@@ -1,23 +1,23 @@
-import { HiOutlineMagnifyingGlass } from "react-icons/hi2"
+
 import HowItWorksCard from "../HowItWorksCard/HowItWorksCard"
 import SectionsHead from "../SectionsHead/SectionsHead"
 import './HowItWorks.css'
-import IconHover from "../IconHover/IconHover"
-import { BsHandIndexThumb} from "react-icons/bs"
-import { IoMdCheckmarkCircleOutline } from "react-icons/io"
+import Confirm from "./Confirm"
+import Select from "./select"
+import Search from "./search"
 
 
 const HowItWorks = () => {
     const cards = [{
-        img : <IconHover img={<HiOutlineMagnifyingGlass style={{fontSize : `24px` , color : `#025595` , transform :`translate(-31px , -3px) ` }} />} /> ,
+        img : <Search /> ,
         head: "Search Apartment" , 
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae."
     },{
-        img : <IconHover img={<BsHandIndexThumb  style={{fontSize : `20px` , color : `#025595` , transform :`translate(-31px , -6px) ` }} />}/> ,
+        img : <Select /> ,
         head: "Select Apartment" , 
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae."
     },{
-        img : <IconHover img={<IoMdCheckmarkCircleOutline style={{fontSize : `22px` , color : `#025595`  , transform :`translate(-31px , -5px) ` }} />} /> ,
+        img : <Confirm /> ,
         head: "Confirm Apartment" , 
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae."
     }]
