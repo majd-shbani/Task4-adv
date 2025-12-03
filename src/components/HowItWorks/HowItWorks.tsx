@@ -3,8 +3,8 @@ import HowItWorksCard from "../HowItWorksCard/HowItWorksCard"
 import SectionsHead from "../SectionsHead/SectionsHead"
 import './HowItWorks.css'
 import Confirm from "./Confirm"
-import Select from "./select"
-import Search from "./search"
+import Select from "./Select"
+import Search from "./Search"
 
 
 const HowItWorks = () => {
